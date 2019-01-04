@@ -1,13 +1,54 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/futura.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/futura.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/futura.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Futura Regular';
+  src: url('../fonts/futura-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/futura-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/futura-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/futura-regular.ttf')  format('truetype')
+}
+
+body {
+    font-family: 'Futura Regular', Fallback, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6 {
+     font-family: 'Futura', Fallback, sans-serif;   
+}
+
+h3.header {
+    text-transform: uppercase;
+}
+
 .navigation {
-    background-color: rgba(8,45,82,0.5);
+    background-color: #448886;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
 .navigation p {
     margin-bottom: 0px;
 }
+
+img.ruby-nav-logo {
+    max-height: 30px;
+}
+
+a.nav-link { color: #fff; }
 
 .navigation,
 .footer {
@@ -17,7 +58,7 @@
 .hero {
     align-items: center;
     background-color: lavender;
-    background-image: url('../images/beach.jpg');
+    background-image: url('../images/beach4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,8 +78,10 @@ img.hero-image {
 }
 
 .info-section {
+    letter-spacing: 0.6px;
+    font-size: 17px;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -53,43 +96,76 @@ img.hero-image {
     background-color: #f9f9f9;
 }
 
+.menu-section a.btn { text-align: center; margin: 0 auto; }
+
+.row.menu-row {
+    padding-top: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.row.menu-row .col-lg-6 { /*padding-left: 50px;*/ }
+
 .menu-section h3 {
     text-align: center;
 }
 
-.image-grid-section .row .columns {
+.menu-section h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.menu-section .content-inner { 
+    max-width: 330px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.row.menu-row p {
+    display: block;
+    position: relative;
+}
+
+.row.menu-row span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.image-grid-section .row .col-lg-2 {
     margin-left: 0px;
     min-height: 300px;
 }
 
-.image-grid-section .row .columns {
+.image-grid-section .row .col-lg-2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.image-grid-section .row .columns:first-child {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:first-child {
+    background-image: url('../images/food-1.jpg');
 }
 
-.image-grid-section .row .columns:nth-child(2) {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:nth-child(2) {
+    background-image: url('../images/food-2.jpg');
 }
 
-.image-grid-section .row .columns:nth-child(3) {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:nth-child(3) {
+    background-image: url('../images/food-3.jpg');
 }
 
-.image-grid-section .row .columns:nth-child(4) {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:nth-child(4) {
+    background-image: url('../images/food-4.jpg');
 }
 
-.image-grid-section .row .columns:nth-child(5) {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:nth-child(5) {
+    background-image: url('../images/food-5.jpg');
 }
 
 
-.image-grid-section .row .columns:nth-child(6) {
-    background-image: url('../images/beach.jpg');
+.image-grid-section .row .col-lg-2:nth-child(6) {
+    background-image: url('../images/food-6.jpg');
 }
 
 @media (min-width: 550px) {
@@ -110,4 +186,8 @@ img.hero-image {
 
 .footer {
     text-align: center;
+    background-color: #448886;
+    color: #fff;
 }
+
+.footer p { margin-bottom: 0px; }
