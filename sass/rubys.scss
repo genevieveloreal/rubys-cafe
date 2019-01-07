@@ -1,0 +1,210 @@
+/***
+    SETTINGS AND VARIABLES
+***/
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/futura.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/futura.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/futura.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/futura.ttf')  format('truetype')
+  }
+  
+  @font-face {
+    font-family: 'Futura Regular';
+    src: url('../fonts/futura-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/futura-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/futura-regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/futura-regular.ttf')  format('truetype')
+  }
+  
+  @mixin defaultfont {
+    font-family: 'Futura Regular', Fallback, sans-serif;
+  }
+
+  @mixin container {
+      .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+  }
+
+
+  body {
+    @include defaultfont();
+    letter-spacing: 0.5px;
+  }
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5, 
+  h6 {
+        @include defaultfont();
+}
+  
+  h3.header {
+      text-transform: uppercase;
+  }
+  
+  .navigation {
+      background-color: #448886;
+      color: #fff;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      text-transform: uppercase;
+
+      p {
+        margin-bottom: 0px;
+    }
+  }
+    
+  img.ruby-nav-logo {
+      max-height: 30px;
+  }
+  
+  a.nav-link { color: #fff; }
+  
+  .footer {
+      text-transform: uppercase;
+  }
+  
+  .hero {
+      align-items: center;
+      background-color: lavender;
+      background-image: url('../images/beach4.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      min-height: 50vh;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  img.hero-image {
+      max-width: 300px;
+  }
+  
+  
+  .info-section {
+      letter-spacing: 0.6px;
+      font-size: 17px;
+      margin: 0 auto;
+      max-width: 500px;
+      text-align: center;
+      @include container();
+  }
+
+  .menu-section {
+      background-color: #f9f9f9;
+      @include container();
+
+      a.btn { 
+          text-align: center; margin: 0 auto; 
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        h5 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .content-inner { 
+            max-width: 330px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+        }
+  }
+  
+   
+  .row.menu-row {
+      padding-top: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-transform: uppercase;
+
+      .col-lg-6 { /*padding-left: 50px;*/ }
+
+      p {
+        display: block;
+        position: relative;
+    }
+
+    span {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+  }
+
+  .image-grid-section {
+      .row {
+          .col-lg-2 {
+            margin-left: 0px;
+            min-height: 300px;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            &:first-child {
+                background-image: url('../images/food-1.jpg');
+            }
+            
+            
+            &:nth-child(2) {
+                background-image: url('../images/food-2.jpg');
+            }
+            
+            &:nth-child(3) {
+                background-image: url('../images/food-3.jpg');
+            }
+            
+            &:nth-child(4) {
+                background-image: url('../images/food-4.jpg');
+            }
+            
+            &:nth-child(5) {
+                background-image: url('../images/food-5.jpg');
+            }
+            
+            &:nth-child(6) {
+                background-image: url('../images/food-6.jpg');
+            }
+          }
+      }
+  }
+  
+
+  
+  .map-frame {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      iframe {
+        width: 100%;
+    }
+  }
+    
+  .footer {
+      text-align: center;
+      background-color: #448886;
+      color: #fff;
+
+      p { margin-bottom: 0px; }
+  }
+  
+
+  // Navbar
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse  {
+        justify-content: flex-end;
+    }
+
+}

@@ -1,0 +1,212 @@
+/***
+    SETTINGS AND VARIABLES
+***/
+@font-face {
+  font-family: 'Futura';
+  src: url("../fonts/futura.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/futura.woff2") format("woff2"), url("../fonts/futura.woff") format("woff"), url("../fonts/futura.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Futura Regular';
+  src: url("../fonts/futura-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/futura-regular.woff2") format("woff2"), url("../fonts/futura-regular.woff") format("woff"), url("../fonts/futura-regular.ttf") format("truetype");
+}
+/* line 32, ../sass/rubys.scss */
+body {
+  font-family: 'Futura Regular', Fallback, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* line 38, ../sass/rubys.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Futura Regular', Fallback, sans-serif;
+}
+
+/* line 47, ../sass/rubys.scss */
+h3.header {
+  text-transform: uppercase;
+}
+
+/* line 51, ../sass/rubys.scss */
+.navigation {
+  background-color: #448886;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+}
+/* line 59, ../sass/rubys.scss */
+.navigation p {
+  margin-bottom: 0px;
+}
+
+/* line 64, ../sass/rubys.scss */
+img.ruby-nav-logo {
+  max-height: 30px;
+}
+
+/* line 68, ../sass/rubys.scss */
+a.nav-link {
+  color: #fff;
+}
+
+/* line 70, ../sass/rubys.scss */
+.footer {
+  text-transform: uppercase;
+}
+
+/* line 74, ../sass/rubys.scss */
+.hero {
+  align-items: center;
+  background-color: lavender;
+  background-image: url("../images/beach4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  min-height: 50vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 88, ../sass/rubys.scss */
+img.hero-image {
+  max-width: 300px;
+}
+
+/* line 93, ../sass/rubys.scss */
+.info-section {
+  letter-spacing: 0.6px;
+  font-size: 17px;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+/* line 25, ../sass/rubys.scss */
+.info-section .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* line 102, ../sass/rubys.scss */
+.menu-section {
+  background-color: #f9f9f9;
+}
+/* line 25, ../sass/rubys.scss */
+.menu-section .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* line 106, ../sass/rubys.scss */
+.menu-section a.btn {
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 110, ../sass/rubys.scss */
+.menu-section h3 {
+  text-align: center;
+}
+/* line 114, ../sass/rubys.scss */
+.menu-section h5 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+/* line 119, ../sass/rubys.scss */
+.menu-section .content-inner {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* line 127, ../sass/rubys.scss */
+.row.menu-row {
+  padding-top: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+/* line 133, ../sass/rubys.scss */
+.row.menu-row .col-lg-6 {
+  /*padding-left: 50px;*/
+}
+/* line 135, ../sass/rubys.scss */
+.row.menu-row p {
+  display: block;
+  position: relative;
+}
+/* line 140, ../sass/rubys.scss */
+.row.menu-row span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 149, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2 {
+  margin-left: 0px;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 155, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:first-child {
+  background-image: url("../images/food-1.jpg");
+}
+/* line 160, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:nth-child(2) {
+  background-image: url("../images/food-2.jpg");
+}
+/* line 164, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:nth-child(3) {
+  background-image: url("../images/food-3.jpg");
+}
+/* line 168, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:nth-child(4) {
+  background-image: url("../images/food-4.jpg");
+}
+/* line 172, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:nth-child(5) {
+  background-image: url("../images/food-5.jpg");
+}
+/* line 176, ../sass/rubys.scss */
+.image-grid-section .row .col-lg-2:nth-child(6) {
+  background-image: url("../images/food-6.jpg");
+}
+
+/* line 185, ../sass/rubys.scss */
+.map-frame {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 190, ../sass/rubys.scss */
+.map-frame iframe {
+  width: 100%;
+}
+
+/* line 195, ../sass/rubys.scss */
+.footer {
+  text-align: center;
+  background-color: #448886;
+  color: #fff;
+}
+/* line 200, ../sass/rubys.scss */
+.footer p {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+  /* line 206, ../sass/rubys.scss */
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
