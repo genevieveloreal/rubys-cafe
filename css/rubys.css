@@ -35,11 +35,21 @@ h6 {
 }
 
 /* line 50, ../sass/rubys.scss */
+a {
+  transition: 0.3s all;
+}
+
+/* line 54, ../sass/rubys.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 58, ../sass/rubys.scss */
 h3.header {
   text-transform: uppercase;
 }
 
-/* line 54, ../sass/rubys.scss */
+/* line 62, ../sass/rubys.scss */
 .navigation {
   background-color: #448886;
   color: #fff;
@@ -48,27 +58,31 @@ h3.header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 }
-/* line 62, ../sass/rubys.scss */
+/* line 70, ../sass/rubys.scss */
 .navigation p {
   margin-bottom: 0px;
 }
+/* line 74, ../sass/rubys.scss */
+.navigation .navbar-toggler:focus {
+  outline: 0;
+}
 
-/* line 67, ../sass/rubys.scss */
+/* line 79, ../sass/rubys.scss */
 img.ruby-nav-logo {
   max-height: 30px;
 }
 
-/* line 71, ../sass/rubys.scss */
+/* line 83, ../sass/rubys.scss */
 a.nav-link {
   color: #fff;
 }
 
-/* line 73, ../sass/rubys.scss */
+/* line 85, ../sass/rubys.scss */
 .footer {
   text-transform: uppercase;
 }
 
-/* line 77, ../sass/rubys.scss */
+/* line 89, ../sass/rubys.scss */
 .hero {
   align-items: center;
   background-color: lavender;
@@ -83,12 +97,12 @@ a.nav-link {
   text-align: center;
 }
 
-/* line 91, ../sass/rubys.scss */
+/* line 103, ../sass/rubys.scss */
 img.hero-image {
   max-width: 300px;
 }
 
-/* line 96, ../sass/rubys.scss */
+/* line 108, ../sass/rubys.scss */
 .info-section {
   letter-spacing: 0.6px;
   font-size: 17px;
@@ -102,7 +116,7 @@ img.hero-image {
   padding-bottom: 60px;
 }
 
-/* line 105, ../sass/rubys.scss */
+/* line 117, ../sass/rubys.scss */
 .menu-section {
   background-color: #f9f9f9;
 }
@@ -111,133 +125,154 @@ img.hero-image {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 109, ../sass/rubys.scss */
+/* line 121, ../sass/rubys.scss */
 .menu-section a.btn {
   text-align: center;
   margin: 0 auto;
 }
-/* line 113, ../sass/rubys.scss */
+/* line 125, ../sass/rubys.scss */
 .menu-section h3 {
   text-align: center;
 }
-/* line 117, ../sass/rubys.scss */
+/* line 129, ../sass/rubys.scss */
 .menu-section h5 {
   font-size: 20px;
   margin-bottom: 30px;
 }
-/* line 122, ../sass/rubys.scss */
+/* line 134, ../sass/rubys.scss */
 .menu-section .content-inner {
   max-width: 330px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
-/* line 130, ../sass/rubys.scss */
+/* line 141, ../sass/rubys.scss */
+a.btn.btn-primary {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0px;
+  border-width: 2px;
+  color: #448886;
+  border-color: #448886;
+}
+
+/* line 149, ../sass/rubys.scss */
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #448886;
+  color: #fff;
+  border-color: #448886;
+}
+
+/* line 155, ../sass/rubys.scss */
 .row.menu-row {
   padding-top: 40px;
   max-width: 800px;
   margin: 0 auto;
   text-transform: uppercase;
 }
-/* line 136, ../sass/rubys.scss */
+/* line 161, ../sass/rubys.scss */
 .row.menu-row .col-lg-6 {
   /*padding-left: 50px;*/
 }
-/* line 138, ../sass/rubys.scss */
+/* line 163, ../sass/rubys.scss */
 .row.menu-row p {
   display: block;
   position: relative;
 }
-/* line 143, ../sass/rubys.scss */
+/* line 168, ../sass/rubys.scss */
 .row.menu-row span {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 153, ../sass/rubys.scss */
+/* line 176, ../sass/rubys.scss */
+.image-grid-section {
+  overflow: hidden;
+}
+/* line 180, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2 {
   margin-left: 0px;
   min-height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 159, ../sass/rubys.scss */
+/* line 186, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:first-child {
   background-image: url("../images/food-1.jpg");
 }
-/* line 164, ../sass/rubys.scss */
+/* line 191, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(2) {
   background-image: url("../images/food-2.jpg");
 }
-/* line 168, ../sass/rubys.scss */
+/* line 195, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(3) {
   background-image: url("../images/food-3.jpg");
 }
-/* line 172, ../sass/rubys.scss */
+/* line 199, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(4) {
   background-image: url("../images/food-4.jpg");
 }
-/* line 176, ../sass/rubys.scss */
+/* line 203, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(5) {
   background-image: url("../images/food-5.jpg");
 }
-/* line 180, ../sass/rubys.scss */
+/* line 207, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(6) {
   background-image: url("../images/food-6.jpg");
 }
 
-/* line 189, ../sass/rubys.scss */
+/* line 216, ../sass/rubys.scss */
 .map-frame {
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 194, ../sass/rubys.scss */
+/* line 221, ../sass/rubys.scss */
 .map-frame iframe {
   width: 100%;
+  display: block;
 }
 
-/* line 199, ../sass/rubys.scss */
+/* line 227, ../sass/rubys.scss */
 .footer {
   text-align: center;
   background-color: #448886;
   color: #fff;
 }
-/* line 204, ../sass/rubys.scss */
+/* line 232, ../sass/rubys.scss */
 .footer p {
   margin-bottom: 0px;
 }
 
-/* line 210, ../sass/rubys.scss */
+/* line 238, ../sass/rubys.scss */
 .content-blocks {
   margin: 20px 0;
   padding: 15px;
 }
-/* line 215, ../sass/rubys.scss */
+/* line 243, ../sass/rubys.scss */
 .content-container {
   display: flex;
   justify-content: center;
   padding: 20px;
   margin: 10px 0;
 }
-/* line 221, ../sass/rubys.scss */
+/* line 249, ../sass/rubys.scss */
 .content-container h2 {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
-/* line 226, ../sass/rubys.scss */
+/* line 254, ../sass/rubys.scss */
 .content-container-inner {
   max-width: 800px;
 }
-/* line 231, ../sass/rubys.scss */
+/* line 259, ../sass/rubys.scss */
 .content-image {
   width: 100%;
   margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
-  /* line 240, ../sass/rubys.scss */
+  /* line 268, ../sass/rubys.scss */
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
