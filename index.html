@@ -14,6 +14,41 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/rubys.js" type="text/javascript"></script>
 <link rel="icon" type="image/png" href="images/favicon.png">
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Restaurant",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bulli",
+        "addressRegion": "New South Wales",
+        "postalCode": "2516",
+        "streetAddress": "1 Farrell Rd"
+      },
+      
+      "name": "Ruby's Cafe",
+      "openingHours": [
+        "Mo-Su 7:00-4:00",
+      ],
+      "priceRange": "$$",
+      "servesCuisine": [
+        "Middle Eastern",
+        "Gourmet Australian",
+        "Classic Australian"
+      ],
+      "telephone": "(02) 4284-6890",
+      "url": "https://rubyscafe.com.au",
+      "hasMenu": "https://rubyscafe.com.au/#menu",
+      "acceptsReservations": "yes",
+      "email": "hello@rubyscafe.com.au",
+      "aggregateRatng": {
+          "@type": "AggregateRating",
+          "ratingValue":"4.6",
+          "reviewCount":109
+      }
+    }
+    </script>
 </head>
 <body>
     
@@ -33,13 +68,13 @@
                     <li class="nav-item">
                         <a class="nav-link scrollTo" data-target="#menu" href="#">Menu</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bookings</a>
-                    </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item scrollTo" data-target="#events">
                         <a class="nav-link" href="#">
                             Events
                         </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollTo" data-target="#location" href="#">Location</a>
                     </li>
                 </ul>
             </div>
@@ -145,7 +180,8 @@
             <div class="content-container-inner row">
             <div class="content-left col-sm-12 col-md-8">
                     <h2>Fresh and Locally Sourced Produce</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in porttitor lacus. Nam nibh tellus, feugiat et mollis et, suscipit vel elit. Curabitur dignissim lacinia nibh quis vulputate. Morbi a pretium purus. Nulla rhoncus arcu eros, eget sollicitudin lorem bibendum at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam luctus augue quis magna sollicitudin, sed elementum libero dignissim.</p>
+                    <p>Ruby's Cafe is a proud supporter of our local beach community, which means we source all of our ingredients locally where possible.</p>
+                    <p>Sourcing local ingredients supports local suppliers and provides fresher, more delicious food to our customers. Come in and try it for yourself!</p>
             </div>
             <div class="content-right col-sm-12 col-md-4">
                 <img src="images/salad.jpg" alt="Fresh Locally Sourced Produce" class="content-image">
