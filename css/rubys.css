@@ -238,41 +238,42 @@ a.btn.btn-primary {
   text-align: center;
   background-color: #448886;
   color: #fff;
+  overflow: hidden;
 }
-/* line 232, ../sass/rubys.scss */
+/* line 233, ../sass/rubys.scss */
 .footer p {
   margin-bottom: 0px;
 }
 
-/* line 238, ../sass/rubys.scss */
+/* line 239, ../sass/rubys.scss */
 .content-blocks {
   margin: 20px 0;
   padding: 15px;
 }
-/* line 243, ../sass/rubys.scss */
+/* line 244, ../sass/rubys.scss */
 .content-container {
   display: flex;
   justify-content: center;
   padding: 20px;
   margin: 10px 0;
 }
-/* line 249, ../sass/rubys.scss */
+/* line 250, ../sass/rubys.scss */
 .content-container h2 {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
-/* line 254, ../sass/rubys.scss */
+/* line 255, ../sass/rubys.scss */
 .content-container-inner {
   max-width: 800px;
 }
-/* line 259, ../sass/rubys.scss */
+/* line 260, ../sass/rubys.scss */
 .content-image {
   width: 100%;
   margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
-  /* line 268, ../sass/rubys.scss */
+  /* line 269, ../sass/rubys.scss */
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
