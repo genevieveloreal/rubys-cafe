@@ -21,6 +21,8 @@
     font-family: 'Futura Regular', Fallback, sans-serif;
   }
 
+  $green: #448886;
+
   @mixin container {
       .container {
         padding-top: 60px;
@@ -226,7 +228,7 @@ a.btn.btn-primary {
     
   .footer {
       text-align: center;
-      background-color: #448886;
+      background-color: $green;
       color: #fff;
       overflow: hidden;
 
@@ -270,4 +272,19 @@ a.btn.btn-primary {
         justify-content: flex-end;
     }
 
+}
+
+.social-icon-container {
+    text-align: center;
+    padding: 20px 0;
+    background: $green;
+    color: white;
+    overflow: hidden;
+    
+    img {
+        margin: 0 10px;
+        width: 40px;
+        height: 40px;
+        
+    }
 }

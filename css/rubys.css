@@ -13,18 +13,18 @@
   /* IE9 Compat Modes */
   src: url("../fonts/futura-regular.woff2") format("woff2"), url("../fonts/futura-regular.woff") format("woff"), url("../fonts/futura-regular.ttf") format("truetype");
 }
-/* line 31, ../sass/rubys.scss */
+/* line 33, ../sass/rubys.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 35, ../sass/rubys.scss */
+/* line 37, ../sass/rubys.scss */
 body {
   font-family: 'Futura Regular', Fallback, sans-serif;
   letter-spacing: 0.5px;
 }
 
-/* line 41, ../sass/rubys.scss */
+/* line 43, ../sass/rubys.scss */
 h1,
 h2,
 h3,
@@ -34,22 +34,22 @@ h6 {
   font-family: 'Futura Regular', Fallback, sans-serif;
 }
 
-/* line 50, ../sass/rubys.scss */
+/* line 52, ../sass/rubys.scss */
 a {
   transition: 0.3s all;
 }
 
-/* line 54, ../sass/rubys.scss */
+/* line 56, ../sass/rubys.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 58, ../sass/rubys.scss */
+/* line 60, ../sass/rubys.scss */
 h3.header {
   text-transform: uppercase;
 }
 
-/* line 62, ../sass/rubys.scss */
+/* line 64, ../sass/rubys.scss */
 .navigation {
   background-color: #448886;
   color: #fff;
@@ -58,31 +58,31 @@ h3.header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 }
-/* line 70, ../sass/rubys.scss */
+/* line 72, ../sass/rubys.scss */
 .navigation p {
   margin-bottom: 0px;
 }
-/* line 74, ../sass/rubys.scss */
+/* line 76, ../sass/rubys.scss */
 .navigation .navbar-toggler:focus {
   outline: 0;
 }
 
-/* line 79, ../sass/rubys.scss */
+/* line 81, ../sass/rubys.scss */
 img.ruby-nav-logo {
   max-height: 30px;
 }
 
-/* line 83, ../sass/rubys.scss */
+/* line 85, ../sass/rubys.scss */
 a.nav-link {
   color: #fff;
 }
 
-/* line 85, ../sass/rubys.scss */
+/* line 87, ../sass/rubys.scss */
 .footer {
   text-transform: uppercase;
 }
 
-/* line 89, ../sass/rubys.scss */
+/* line 91, ../sass/rubys.scss */
 .hero {
   align-items: center;
   background-color: lavender;
@@ -97,12 +97,12 @@ a.nav-link {
   text-align: center;
 }
 
-/* line 103, ../sass/rubys.scss */
+/* line 105, ../sass/rubys.scss */
 img.hero-image {
   max-width: 300px;
 }
 
-/* line 108, ../sass/rubys.scss */
+/* line 110, ../sass/rubys.scss */
 .info-section {
   letter-spacing: 0.6px;
   font-size: 17px;
@@ -110,43 +110,43 @@ img.hero-image {
   max-width: 500px;
   text-align: center;
 }
-/* line 25, ../sass/rubys.scss */
+/* line 27, ../sass/rubys.scss */
 .info-section .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 117, ../sass/rubys.scss */
+/* line 119, ../sass/rubys.scss */
 .menu-section {
   background-color: #f9f9f9;
 }
-/* line 25, ../sass/rubys.scss */
+/* line 27, ../sass/rubys.scss */
 .menu-section .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 121, ../sass/rubys.scss */
+/* line 123, ../sass/rubys.scss */
 .menu-section a.btn {
   text-align: center;
   margin: 0 auto;
 }
-/* line 125, ../sass/rubys.scss */
+/* line 127, ../sass/rubys.scss */
 .menu-section h3 {
   text-align: center;
 }
-/* line 129, ../sass/rubys.scss */
+/* line 131, ../sass/rubys.scss */
 .menu-section h5 {
   font-size: 20px;
   margin-bottom: 30px;
 }
-/* line 134, ../sass/rubys.scss */
+/* line 136, ../sass/rubys.scss */
 .menu-section .content-inner {
   max-width: 330px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
-/* line 141, ../sass/rubys.scss */
+/* line 143, ../sass/rubys.scss */
 a.btn.btn-primary {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0px;
@@ -155,126 +155,140 @@ a.btn.btn-primary {
   border-color: #448886;
 }
 
-/* line 149, ../sass/rubys.scss */
+/* line 151, ../sass/rubys.scss */
 .btn-primary:not(:disabled):not(.disabled):active {
   background-color: #448886;
   color: #fff;
   border-color: #448886;
 }
 
-/* line 155, ../sass/rubys.scss */
+/* line 157, ../sass/rubys.scss */
 .row.menu-row {
   padding-top: 40px;
   max-width: 800px;
   margin: 0 auto;
   text-transform: uppercase;
 }
-/* line 161, ../sass/rubys.scss */
+/* line 163, ../sass/rubys.scss */
 .row.menu-row .col-lg-6 {
   /*padding-left: 50px;*/
 }
-/* line 163, ../sass/rubys.scss */
+/* line 165, ../sass/rubys.scss */
 .row.menu-row p {
   display: block;
   position: relative;
 }
-/* line 168, ../sass/rubys.scss */
+/* line 170, ../sass/rubys.scss */
 .row.menu-row span {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 176, ../sass/rubys.scss */
+/* line 178, ../sass/rubys.scss */
 .image-grid-section {
   overflow: hidden;
 }
-/* line 180, ../sass/rubys.scss */
+/* line 182, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2 {
   margin-left: 0px;
   min-height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 186, ../sass/rubys.scss */
+/* line 188, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:first-child {
   background-image: url("../images/food-1.jpg");
 }
-/* line 191, ../sass/rubys.scss */
+/* line 193, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(2) {
   background-image: url("../images/food-2.jpg");
 }
-/* line 195, ../sass/rubys.scss */
+/* line 197, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(3) {
   background-image: url("../images/food-3.jpg");
 }
-/* line 199, ../sass/rubys.scss */
+/* line 201, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(4) {
   background-image: url("../images/food-4.jpg");
 }
-/* line 203, ../sass/rubys.scss */
+/* line 205, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(5) {
   background-image: url("../images/food-5.jpg");
 }
-/* line 207, ../sass/rubys.scss */
+/* line 209, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(6) {
   background-image: url("../images/food-6.jpg");
 }
 
-/* line 216, ../sass/rubys.scss */
+/* line 218, ../sass/rubys.scss */
 .map-frame {
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 221, ../sass/rubys.scss */
+/* line 223, ../sass/rubys.scss */
 .map-frame iframe {
   width: 100%;
   display: block;
 }
 
-/* line 227, ../sass/rubys.scss */
+/* line 229, ../sass/rubys.scss */
 .footer {
   text-align: center;
   background-color: #448886;
   color: #fff;
   overflow: hidden;
 }
-/* line 233, ../sass/rubys.scss */
+/* line 235, ../sass/rubys.scss */
 .footer p {
   margin-bottom: 0px;
 }
 
-/* line 239, ../sass/rubys.scss */
+/* line 241, ../sass/rubys.scss */
 .content-blocks {
   margin: 20px 0;
   padding: 15px;
 }
-/* line 244, ../sass/rubys.scss */
+/* line 246, ../sass/rubys.scss */
 .content-container {
   display: flex;
   justify-content: center;
   padding: 20px;
   margin: 10px 0;
 }
-/* line 250, ../sass/rubys.scss */
+/* line 252, ../sass/rubys.scss */
 .content-container h2 {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
-/* line 255, ../sass/rubys.scss */
+/* line 257, ../sass/rubys.scss */
 .content-container-inner {
   max-width: 800px;
 }
-/* line 260, ../sass/rubys.scss */
+/* line 262, ../sass/rubys.scss */
 .content-image {
   width: 100%;
   margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
-  /* line 269, ../sass/rubys.scss */
+  /* line 271, ../sass/rubys.scss */
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
+}
+/* line 277, ../sass/rubys.scss */
+.social-icon-container {
+  text-align: center;
+  padding: 20px 0;
+  background: #448886;
+  color: white;
+  overflow: hidden;
+}
+/* line 284, ../sass/rubys.scss */
+.social-icon-container img {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
 }
