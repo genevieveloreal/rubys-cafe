@@ -46,6 +46,10 @@
   h6 {
         @include defaultfont();
 }
+
+  a {
+    transition: 0.3s all;
+  }
   
   h3.header {
       text-transform: uppercase;
@@ -61,6 +65,10 @@
 
       p {
         margin-bottom: 0px;
+      }
+
+    .navbar-toggler:focus {
+      outline: 0;
     }
   }
     
@@ -149,6 +157,8 @@
 
   // Images row.
   .image-grid-section {
+      overflow: hidden;
+
       .row {
           .col-lg-2 {
             margin-left: 0px;
@@ -193,6 +203,7 @@
 
       iframe {
         width: 100%;
+        display: block;
     }
   }
     
