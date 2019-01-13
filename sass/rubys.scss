@@ -28,6 +28,9 @@
       }
   }
 
+  html {
+      scroll-behavior: smooth;
+  }
 
   body {
     @include defaultfont();
@@ -144,6 +147,7 @@
     }
   }
 
+  // Images row.
   .image-grid-section {
       .row {
           .col-lg-2 {
@@ -198,6 +202,36 @@
       color: #fff;
 
       p { margin-bottom: 0px; }
+  }
+
+  // Content blocks.
+  .content {
+
+    &-blocks {
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 10px 0;
+
+        h2 {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+
+        &-inner {
+            max-width:800px;
+        }
+    }
+
+    &-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
   }
   
 
