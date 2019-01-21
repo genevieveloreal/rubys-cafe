@@ -13,18 +13,18 @@
   /* IE9 Compat Modes */
   src: url("../fonts/futura-regular.woff2") format("woff2"), url("../fonts/futura-regular.woff") format("woff"), url("../fonts/futura-regular.ttf") format("truetype");
 }
-/* line 33, ../sass/rubys.scss */
+/* line 35, ../sass/rubys.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 37, ../sass/rubys.scss */
+/* line 39, ../sass/rubys.scss */
 body {
   font-family: 'Futura Regular', Fallback, sans-serif;
   letter-spacing: 0.5px;
 }
 
-/* line 43, ../sass/rubys.scss */
+/* line 45, ../sass/rubys.scss */
 h1,
 h2,
 h3,
@@ -34,22 +34,22 @@ h6 {
   font-family: 'Futura Regular', Fallback, sans-serif;
 }
 
-/* line 52, ../sass/rubys.scss */
+/* line 54, ../sass/rubys.scss */
 a {
   transition: 0.3s all;
 }
 
-/* line 56, ../sass/rubys.scss */
+/* line 58, ../sass/rubys.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 60, ../sass/rubys.scss */
+/* line 62, ../sass/rubys.scss */
 h3.header {
   text-transform: uppercase;
 }
 
-/* line 64, ../sass/rubys.scss */
+/* line 66, ../sass/rubys.scss */
 .navigation {
   background-color: #448886;
   color: #fff;
@@ -58,31 +58,31 @@ h3.header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 }
-/* line 72, ../sass/rubys.scss */
+/* line 74, ../sass/rubys.scss */
 .navigation p {
   margin-bottom: 0px;
 }
-/* line 76, ../sass/rubys.scss */
+/* line 78, ../sass/rubys.scss */
 .navigation .navbar-toggler:focus {
   outline: 0;
 }
 
-/* line 81, ../sass/rubys.scss */
+/* line 83, ../sass/rubys.scss */
 img.ruby-nav-logo {
   max-height: 30px;
 }
 
-/* line 85, ../sass/rubys.scss */
+/* line 87, ../sass/rubys.scss */
 a.nav-link {
   color: #fff;
 }
 
-/* line 87, ../sass/rubys.scss */
+/* line 89, ../sass/rubys.scss */
 .footer {
   text-transform: uppercase;
 }
 
-/* line 91, ../sass/rubys.scss */
+/* line 93, ../sass/rubys.scss */
 .hero {
   align-items: center;
   background-color: lavender;
@@ -97,12 +97,12 @@ a.nav-link {
   text-align: center;
 }
 
-/* line 105, ../sass/rubys.scss */
+/* line 107, ../sass/rubys.scss */
 img.hero-image {
   max-width: 300px;
 }
 
-/* line 110, ../sass/rubys.scss */
+/* line 112, ../sass/rubys.scss */
 .info-section {
   letter-spacing: 0.6px;
   font-size: 17px;
@@ -110,43 +110,43 @@ img.hero-image {
   max-width: 500px;
   text-align: center;
 }
-/* line 27, ../sass/rubys.scss */
+/* line 29, ../sass/rubys.scss */
 .info-section .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 119, ../sass/rubys.scss */
+/* line 121, ../sass/rubys.scss */
 .menu-section {
   background-color: #f9f9f9;
 }
-/* line 27, ../sass/rubys.scss */
+/* line 29, ../sass/rubys.scss */
 .menu-section .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* line 123, ../sass/rubys.scss */
+/* line 125, ../sass/rubys.scss */
 .menu-section a.btn {
   text-align: center;
   margin: 0 auto;
 }
-/* line 127, ../sass/rubys.scss */
+/* line 129, ../sass/rubys.scss */
 .menu-section h3 {
   text-align: center;
 }
-/* line 131, ../sass/rubys.scss */
+/* line 133, ../sass/rubys.scss */
 .menu-section h5 {
   font-size: 20px;
   margin-bottom: 30px;
 }
-/* line 136, ../sass/rubys.scss */
+/* line 138, ../sass/rubys.scss */
 .menu-section .content-inner {
   max-width: 330px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
-/* line 143, ../sass/rubys.scss */
+/* line 145, ../sass/rubys.scss */
 a.btn.btn-primary {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 0px;
@@ -155,51 +155,52 @@ a.btn.btn-primary {
   border-color: #448886;
 }
 
-/* line 151, ../sass/rubys.scss */
+/* line 153, ../sass/rubys.scss */
 .btn-primary:not(:disabled):not(.disabled):active {
   background-color: #448886;
   color: #fff;
   border-color: #448886;
 }
 
-/* line 157, ../sass/rubys.scss */
+/* line 159, ../sass/rubys.scss */
 .row.menu-row {
   padding-top: 40px;
   max-width: 800px;
   margin: 0 auto;
   text-transform: uppercase;
 }
-/* line 163, ../sass/rubys.scss */
+/* line 165, ../sass/rubys.scss */
 .row.menu-row .col-lg-6 {
   /*padding-left: 50px;*/
 }
-/* line 165, ../sass/rubys.scss */
+/* line 167, ../sass/rubys.scss */
 .row.menu-row p {
   display: block;
   position: relative;
 }
-/* line 171, ../sass/rubys.scss */
+/* line 173, ../sass/rubys.scss */
 .row.menu-row sub {
   display: block;
   font-size: 10px;
   line-height: 15px;
+  font-family: sans-serif;
 }
-/* line 177, ../sass/rubys.scss */
+/* line 180, ../sass/rubys.scss */
 .row.menu-row h5 sub {
   margin-bottom: -15px;
 }
-/* line 181, ../sass/rubys.scss */
+/* line 184, ../sass/rubys.scss */
 .row.menu-row span {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 189, ../sass/rubys.scss */
+/* line 192, ../sass/rubys.scss */
 .image-grid-section {
   overflow: hidden;
 }
-/* line 193, ../sass/rubys.scss */
+/* line 196, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2,
 .image-grid-section .row .col-lg-3 {
   margin-left: 0px;
@@ -207,95 +208,95 @@ a.btn.btn-primary {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 200, ../sass/rubys.scss */
+/* line 203, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:first-child,
 .image-grid-section .row .col-lg-3:first-child {
   background-image: url("../images/food-2.jpg");
 }
-/* line 205, ../sass/rubys.scss */
+/* line 208, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(2),
 .image-grid-section .row .col-lg-3:nth-child(2) {
   background-image: url("../images/food-3.jpg");
 }
-/* line 209, ../sass/rubys.scss */
+/* line 212, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(3),
 .image-grid-section .row .col-lg-3:nth-child(3) {
   background-image: url("../images/food-4.jpg");
 }
-/* line 213, ../sass/rubys.scss */
+/* line 216, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(4),
 .image-grid-section .row .col-lg-3:nth-child(4) {
   background-image: url("../images/food-5.jpg");
 }
-/* line 217, ../sass/rubys.scss */
+/* line 220, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(5),
 .image-grid-section .row .col-lg-3:nth-child(5) {
   background-image: url("../images/food-6.jpg");
 }
-/* line 221, ../sass/rubys.scss */
+/* line 224, ../sass/rubys.scss */
 .image-grid-section .row .col-lg-2:nth-child(6),
 .image-grid-section .row .col-lg-3:nth-child(6) {
   background-image: url("../images/food-6.jpg");
 }
 
-/* line 230, ../sass/rubys.scss */
+/* line 233, ../sass/rubys.scss */
 .map-frame {
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 235, ../sass/rubys.scss */
+/* line 238, ../sass/rubys.scss */
 .map-frame iframe {
   width: 100%;
   display: block;
 }
 
-/* line 241, ../sass/rubys.scss */
+/* line 244, ../sass/rubys.scss */
 .footer {
   text-align: center;
   background-color: #448886;
   color: #fff;
   overflow: hidden;
 }
-/* line 247, ../sass/rubys.scss */
+/* line 250, ../sass/rubys.scss */
 .footer p {
   margin-bottom: 0px;
 }
 
-/* line 253, ../sass/rubys.scss */
+/* line 256, ../sass/rubys.scss */
 .content-blocks {
   margin: 20px 0;
   padding: 15px;
 }
-/* line 258, ../sass/rubys.scss */
+/* line 261, ../sass/rubys.scss */
 .content-container {
   display: flex;
   justify-content: center;
   padding: 20px;
   margin: 10px 0;
 }
-/* line 264, ../sass/rubys.scss */
+/* line 267, ../sass/rubys.scss */
 .content-container h2 {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
-/* line 269, ../sass/rubys.scss */
+/* line 272, ../sass/rubys.scss */
 .content-container-inner {
   max-width: 800px;
 }
-/* line 274, ../sass/rubys.scss */
+/* line 277, ../sass/rubys.scss */
 .content-image {
   width: 100%;
   margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
-  /* line 283, ../sass/rubys.scss */
+  /* line 286, ../sass/rubys.scss */
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
 }
-/* line 289, ../sass/rubys.scss */
+/* line 292, ../sass/rubys.scss */
 .social-icon-container {
   text-align: center;
   padding: 20px 0;
@@ -303,7 +304,7 @@ a.btn.btn-primary {
   color: white;
   overflow: hidden;
 }
-/* line 296, ../sass/rubys.scss */
+/* line 299, ../sass/rubys.scss */
 .social-icon-container img {
   margin: 0 10px;
   width: 40px;

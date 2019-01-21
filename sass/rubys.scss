@@ -19,6 +19,8 @@
   
   @mixin defaultfont {
     font-family: 'Futura Regular', Fallback, sans-serif;
+    //font-family: 'Noto Sans', sans-serif;
+
   }
 
   $green: #448886;
@@ -168,10 +170,11 @@ a.btn.btn-primary {
 
         }
 
-    sub {
+    sub { 
         display: block;
         font-size: 10px;
         line-height: 15px;
+        font-family: sans-serif;
     }
 
     h5 sub {
