@@ -315,3 +315,17 @@ a.btn.btn-primary {
   width: 40px;
   height: 40px;
 }
+
+/* line 311, ../sass/rubys.scss */
+.competition-entry {
+  background: #1e448f;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 10px;
+}
+/* line 318, ../sass/rubys.scss */
+.competition-entry a {
+  color: #f1faf3;
+}
