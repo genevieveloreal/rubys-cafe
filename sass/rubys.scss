@@ -24,6 +24,7 @@
   }
 
   $green: #448886;
+  $purple: #643569;
 
   @mixin container {
       .container {
@@ -64,7 +65,7 @@
   }
   
   .navigation {
-      background-color: #448886;
+      background-color: #643569;
       color: #fff;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -93,8 +94,8 @@
   .hero {
       align-items: center;
       background-color: lavender;
-      background-image: url('../images/beach4.jpg');
-      background-position: center;
+      background-image: url('../images/hero-bg.jpg');
+      background-position: bottom center;
       background-repeat: no-repeat;
       background-size: cover;
       color: #fff;
@@ -247,7 +248,7 @@ a.btn.btn-primary {
     
   .footer {
       text-align: center;
-      background-color: $green;
+      background-color: $purple;
       color: #fff;
       overflow: hidden;
 
@@ -296,7 +297,7 @@ a.btn.btn-primary {
 .social-icon-container {
     text-align: center;
     padding: 20px 0;
-    background: $green;
+    background: $purple;
     color: white;
     overflow: hidden;
     
