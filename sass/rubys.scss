@@ -25,6 +25,7 @@
 
   $green: #448886;
   $purple: #643569;
+  $black: rgba(0,0,0,0.87);
 
   @mixin container {
       .container {
@@ -65,7 +66,7 @@
   }
   
   .navigation {
-      background-color: #643569;
+      background-color: $black;
       color: #fff;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -80,12 +81,19 @@
       outline: 0;
     }
   }
+
+  .rubys-location {}
     
   img.ruby-nav-logo {
-      max-height: 30px;
+      max-height: 45px;
+
+      @media (max-width:400px) {
+          display: none;
+      }
   }
-  
-  a.nav-link { color: #fff; }
+
+  .nav-link {cursor: pointer;}
+  a.nav-link { color: #fff; cursor: pointer; }
   
   .footer {
       text-transform: uppercase;
@@ -95,7 +103,7 @@
       align-items: center;
       background-color: lavender;
       background-image: url('../images/hero-bg.jpg');
-      background-position: bottom center;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       color: #fff;
@@ -104,9 +112,21 @@
       justify-content: center;
       text-align: center;
   }
+
+  .navbar-brand {
+      padding:0;
+
+  }
   
   img.hero-image {
       max-width: 300px;
+  }
+
+  .logo-container {
+      background: rgba(0,0,0,.50);
+      border-radius: 50%;
+      margin: 10px;
+      padding:10px;
   }
   
   
@@ -191,6 +211,8 @@ a.btn.btn-primary {
 
   .certificate {
       margin:auto;
+      flex-flow: wrap;
+      justify-content: center;
   }
 
   // Images row.
@@ -206,16 +228,16 @@ a.btn.btn-primary {
             background-repeat: no-repeat;
 
             &:first-child {
-                background-image: url('../images/food-2.jpg');
+                background-image: url('../images/food-3.jpg');
             }
             
             
             &:nth-child(2) {
-                background-image: url('../images/food-3.jpg');
+                background-image: url('../images/food-4.jpg');
             }
             
             &:nth-child(3) {
-                background-image: url('../images/food-4.jpg');
+                background-image: url('../images/food-5.jpg');
             }
             
             &:nth-child(4) {
@@ -226,9 +248,7 @@ a.btn.btn-primary {
                 background-image: url('../images/food-6.jpg');
             }
             
-            &:nth-child(6) {
-                background-image: url('../images/food-6.jpg');
-            }
+            
           }
       }
   }
@@ -248,7 +268,7 @@ a.btn.btn-primary {
     
   .footer {
       text-align: center;
-      background-color: $purple;
+      background-color: $black;
       color: #fff;
       overflow: hidden;
 
@@ -297,7 +317,7 @@ a.btn.btn-primary {
 .social-icon-container {
     text-align: center;
     padding: 20px 0;
-    background: $purple;
+    background: $black;
     color: white;
     overflow: hidden;
     
