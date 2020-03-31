@@ -1,0 +1,42 @@
+{
+  "name": "rubys-v2",
+  "version": "1.0.0",
+  "description": "Ruby's Cafe on Bulli Beach",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "webpack --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "normalize-jss": "^4.0.0",
+    "react-scroll": "^1.7.16",
+    "react-scroll-parallax": "^2.3.2",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
