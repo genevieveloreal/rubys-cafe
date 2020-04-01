@@ -37,6 +37,8 @@ export default function IndexPage() {
 
   return (
     <ThemeProvider theme={theme}>
+      <ParallaxProvider>
+
       <CssBaseline/>
       <AppBar>
         <Toolbar>
@@ -44,9 +46,7 @@ export default function IndexPage() {
                alt="Ruby's Cafe on Bulli Beach"/>
         </Toolbar>
       </AppBar>
-      <ParallaxProvider>
         <Banner/>
-      </ParallaxProvider>
       <Container>
         <IntroBlurb/>
         <PhotoCard background="/assets/take_away_food_banner.jpg" height="200px"/>
@@ -57,15 +57,14 @@ export default function IndexPage() {
       </Container>
 
         <Container className={classes.fullwidthcontainer}>
-          <ParallaxProvider>
             <LocationBanner/>
-          </ParallaxProvider>
 
             <div dangerouslySetInnerHTML={{__html: mapiframe}} />
         </Container>
       <Container>
         <Certificates/>
       </Container>
+        </ParallaxProvider>
 
     </ThemeProvider>
   );
