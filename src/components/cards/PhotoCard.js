@@ -61,8 +61,8 @@ export default function PhotoCard(props) {
     <div className={classes.container}>
       <div className={classes.innerContainer}>
         <Typography variant="h2" className={classes.cardHeader}>The Best Bulli Takeaway</Typography>
-        <Typography variant="body1">Take a burger to the park. Take a milkshake to the beach. </Typography>
-        <Typography variant="body1">Have breakfast by the sea! Everything at Ruby's Cafe is takeaway. Call us now to order ahead.</Typography>
+        <Typography variant="body1">Whether you are out for a bike ride, a run, a walk or hitting the surf - you can refuel at Ruby's Cafe.</Typography>
+        <Typography variant="body1">Everything at Ruby's Cafe is takeaway. Call us now to order ahead.</Typography>
         <CardActions disableSpacing={true} className={classes.cardActions}>
           <Button className={classes.button} color="secondary" href="tel:+61242846890"  variant="contained"><Call className={classes.icon}/> 4284 6890</Button>
           <Button className={classes.button} color="secondary" href="/assets/ruby_menu.pdf" variant="contained">Download Menu</Button>
