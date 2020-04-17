@@ -96,11 +96,6 @@ const menu = {
     ],
     seafood: [
         {
-            name: "Grilled Barramundi",
-            desc: "Cooked on the grill in lemon pepper butter, served with salad, chips, tartare sauce, lemon",
-            price: "18",
-        },
-        {
             name: "Fish and Chips",
             desc: "Okains bay blue eyed cod fillets in light batter, chips, salad, tartare sauce, lemon",
             price: "15",
