@@ -8,85 +8,85 @@ import { Call } from "@material-ui/icons";
 import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles({
-    root: {
-      marginTop: "40px",
-        maxWidth: "800px",
-        margin: "0 auto",
-        borderBottom: "1px solid #ccc",
-        paddingBottom: "24px"
-    },
-    heading: {
-        textAlign: "center",
-        marginBottom: "34px"
-    },
-    subheading: {
-        borderBottom: "1px solid #ccc",
-        paddingBottom: "4px",
-        marginBottom: "4px",
-        width: "85%"
-    },
-    buttonContainer: {
-        margin: "16px auto",
-        display: "flex",
-        justifyContent: "center"
-    }
+  root: {
+    marginTop: "40px",
+    maxWidth: "800px",
+    margin: "0 auto",
+    borderBottom: "1px solid #ccc",
+    paddingBottom: "24px"
+  },
+  heading: {
+    textAlign: "center",
+    marginBottom: "34px"
+  },
+  subheading: {
+    borderBottom: "1px solid #ccc",
+    paddingBottom: "4px",
+    marginBottom: "4px",
+    width: "85%"
+  },
+  buttonContainer: {
+    margin: "16px auto",
+    display: "flex",
+    justifyContent: "center"
+  }
 });
 
 export default function MenuContainer() {
 
-    const classes = useStyles();
+  const classes = useStyles();
 
-    return (
-        <div className={classes.root}>
-            <Typography variant="h2" className={classes.heading} >Takeaway Menu</Typography>
+  return (
+    <div className={classes.root}>
+      <Typography variant="h2" className={classes.heading} >Takeaway Menu</Typography>
 
-            <Grid container spacing={3}>
+      <Grid container spacing={3}>
 
-                <Grid item sm={6} xs={12}>
-                    <Typography variant="h4" className={classes.subheading}>All Day</Typography>
-                    <Typography variant="body1">Available all day</Typography>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>All Day</Typography>
+          <Typography variant="body1">Available all day</Typography>
 
-                    { menu.allday.map((item, key) =>
-                        <MenuItem key={key} {...item} />
-                    )}
-                </Grid>
-                <Grid item sm={6} xs={12}>
-                    <Typography variant="h4" className={classes.subheading}>Burgers</Typography>
-                    <Typography variant="body1">From 11am. All burgers served with chips</Typography>
-                    { menu.burgers.map((item, key) =>
-                        <MenuItem key={key} {...item} />
-                    )}
-                </Grid>
-                <Grid item sm={6} xs={12}>
-                    <Typography variant="h4" className={classes.subheading}>Seafood & Schnitzel</Typography>
-                    <Typography variant="body1">From 11am</Typography>
-                    { menu.seafood.map((item, key) =>
-                        <MenuItem key={key} {...item} />
-                    )}
-                </Grid>
-                <Grid item sm={6} xs={12}>
-                    <Typography variant="h4" className={classes.subheading}>To Share</Typography>
-                    { menu.toshare.map((item, key) =>
-                        <MenuItem key={key} {...item} />
-                    )}
+          { menu.allday.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>Burgers</Typography>
+          <Typography variant="body1">From 11am. All burgers served with chips</Typography>
+          { menu.burgers.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>Seafood & Schnitzel</Typography>
+          <Typography variant="body1">From 11am</Typography>
+          { menu.seafood.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>To Share</Typography>
+          { menu.toshare.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
 
-                </Grid>
-               <Grid item sm={6} xs={12}>
-                <Typography variant="h4" className={classes.subheading}>Hot Drinks</Typography>
-                { menu.hotdrinks.map((item, key) =>
-                    <MenuItem key={key} {...item} />
-                )}
-                </Grid>
-                <Grid item sm={6} xs={12}>
-                <Typography variant="h4" className={classes.subheading}>Cold Drinks</Typography>
-                { menu.coldrinks.map((item, key) =>
-                    <MenuItem key={key} {...item} />
-                )}
-                </Grid>
-            </Grid>
-            <div className={classes.buttonContainer}>
-                <Button href="/assets/rubys_menu.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
-            </div>
-        </div>
-    )
+        </Grid>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>Hot Drinks</Typography>
+          { menu.hotdrinks.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+        <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>Cold Drinks</Typography>
+          { menu.coldrinks.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+      </Grid>
+      <div className={classes.buttonContainer}>
+        <Button href="/assets/rubys_menu.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
+      </div>
+    </div>
+  )
 }

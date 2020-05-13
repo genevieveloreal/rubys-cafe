@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72d0c86-db25-442d-a264-63f5b43e04f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/rubys_menu.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rubys_menu.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="rubys" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +34,6 @@
   <component name="ProjectId" id="1ZSVqZ3aKjvLuXbMtJTNaf7v774" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -99,12 +101,14 @@
       <workItem from="1585742396535" duration="141000" />
       <workItem from="1585742539072" duration="335000" />
       <workItem from="1586070033513" duration="31000" />
-      <workItem from="1587082710040" duration="246000" />
+      <workItem from="1587082710040" duration="349000" />
+      <workItem from="1587342133649" duration="258000" />
+      <workItem from="1589324387331" duration="4616000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Inspections" timestamp="1584837910126">
@@ -119,24 +123,28 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1063" y="457" key="FileChooserDialogImpl/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585742536431" />
-    <state width="2517" height="349" key="GridCell.Tab.0.bottom" timestamp="1585742325115">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1589331117221">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589331117221" />
     <state width="2539" height="349" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584858118401" />
     <state width="2517" height="349" key="GridCell.Tab.0.bottom/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585742325115" />
-    <state width="2517" height="349" key="GridCell.Tab.0.center" timestamp="1585742325115">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1589331117221">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589331117221" />
     <state width="2539" height="349" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584858118401" />
     <state width="2517" height="349" key="GridCell.Tab.0.center/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585742325115" />
-    <state width="2517" height="349" key="GridCell.Tab.0.left" timestamp="1585742325115">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1589331117221">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589331117221" />
     <state width="2539" height="349" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584858118401" />
     <state width="2517" height="349" key="GridCell.Tab.0.left/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585742325115" />
-    <state width="2517" height="349" key="GridCell.Tab.0.right" timestamp="1585742325115">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1589331117221">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589331117221" />
     <state width="2539" height="349" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584858118401" />
     <state width="2517" height="349" key="GridCell.Tab.0.right/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585742325115" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1584838001825">
@@ -148,9 +156,14 @@
     </state>
     <state x="926" y="315" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584857254225" />
     <state x="926" y="315" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585132217358" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1585615566894">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="-1304" y="240" key="run.anything.popup" timestamp="1589328712057">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1304" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589328712057" />
+    <state x="-1213" y="234" width="672" height="504" key="search.everywhere.popup" timestamp="1589330719416">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1213" y="234" width="672" height="504" key="search.everywhere.popup/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1589330719416" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584850165509" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.87.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1585615566894" />
   </component>

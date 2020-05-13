@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     },
 
     cardHeader: {
-      marginBottom: "24px"
+        marginBottom: "24px"
     },
 
     cardMedia: {
@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
     },
 
     button: {
-      margin: "10px 10px 0 0"
+        margin: "10px 10px 0 0"
     },
 
     cardContent: {
@@ -64,7 +64,7 @@ const useStyles = makeStyles(theme => ({
     },
 
     cardActions: {
-      padding: "8px 0"
+        padding: "8px 0"
     },
     cardContentFull: {
         height: "90%",
@@ -85,22 +85,22 @@ export function MenuCard() {
     const classes = useStyles();
 
     return (
-        <Card className={classes.root}>
-            <div className={classes.cardDetails}>
-                <div className={classes.content}>
-                <CardMedia className={classes.cardMedia} image="/assets/burger.jpg" alt="Ruby's Cafe serves the best burgers and chips."/>
-                <CardContent className={classes.cardContent}>
-                    <Typography variant="h2" className={classes.cardHeader}>Sea it and Eat it</Typography>
-                    <Typography variant="body">We offer the best breakfast classics or lunch time favourites. Our Benny Roll is a crowd favourite among locals. </Typography>
-                    <Typography variant="body">Order a milkshake and fries for take-away and enjoy the sun and surf down at Bulli beach.</Typography>
-                    <CardActions disableSpacing={true}>
-                        <Button className={classes.button} color="primary" href="/menu">View Menu</Button>
-                    </CardActions>
-                </CardContent>
-                </div>
+      <Card className={classes.root}>
+          <div className={classes.cardDetails}>
+              <div className={classes.content}>
+                  <CardMedia className={classes.cardMedia} image="/assets/burger.jpg" alt="Ruby's Cafe serves the best burgers and chips."/>
+                  <CardContent className={classes.cardContent}>
+                      <Typography variant="h2" className={classes.cardHeader}>Sea it and Eat it</Typography>
+                      <Typography variant="body">We offer the best breakfast classics or lunch time favourites. Our Benny Roll is a crowd favourite among locals. </Typography>
+                      <Typography variant="body">Order a milkshake and fries for take-away and enjoy the sun and surf down at Bulli beach.</Typography>
+                      <CardActions disableSpacing={true}>
+                          <Button className={classes.button} color="primary" href="/menu">View Menu</Button>
+                      </CardActions>
+                  </CardContent>
+              </div>
 
-            </div>
-        </Card>
+          </div>
+      </Card>
     )
 }
 
@@ -161,7 +161,7 @@ export function ContactUsCard(){
 
     return (
       <Card className={classes.root}>
-          <div className={classes.cardDetails}>
+          <div className={classes.cardDetails} id="location">
               <div className={classes.content}>
 
                   <CardContent className={classes.cardContentFull}>
