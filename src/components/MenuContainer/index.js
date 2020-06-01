@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import menu from "assets/menu.js";
+import menu from "assets/precovid-menu.js";
 import MenuItem from "components/MenuItem";
 import { Call } from "@material-ui/icons";
 import Button from "@material-ui/core/Button";
@@ -85,7 +85,7 @@ export default function MenuContainer() {
         </Grid>
       </Grid>
       <div className={classes.buttonContainer}>
-        <Button href="/assets/rubys_menu.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
+        <Button href="/assets/rubysmenu_june2020.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
       </div>
     </div>
   )

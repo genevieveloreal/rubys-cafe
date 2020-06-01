@@ -1,4 +1,4 @@
-const precovid_menu = {
+const menu = {
     breakfast: [
         {
             name: "Eggs your way",
@@ -6,34 +6,19 @@ const precovid_menu = {
             price: "11",
         },
         {
-            name: "Bacon & Eggs",
-            desc: "Bacon and eggs cooked your way on sourdough",
-            price: "15",
-        },
-        {
             name: "Eggs Benedict",
             desc: "Ham, wilted spinach, poached eggs, hollandaise sauce on a toasted english muffin",
-            price: "15",
+            price: "14",
         },
         {
-            name: "Bruschetta",
-            desc: "Sourdough toast, tomato salsa, onion relish, basil, poached egg, finished with balsamic glaze",
-            price: "12",
+            name: "Breakfast Bruschetta",
+            desc: "Sourdough toast with avocado, fresh tomato/cucumber salsa & a poached egg. Drizzled with Italian balsamic glaze.",
+            price: "13",
         },
         {
             name: "Haloumi Stack",
-            desc: "Toasted sourdough, haloumi, poached egg, romesco with salad of roast capsicum, spinach and artichoke, finished with basil leaves and salsa verde",
+            desc: "Smashed avocado on sourdough toast with grilled haloumi, poached egg & pesto aioli. Served with fresh rocket salad",
             price: "20",
-        },
-        {
-            name: "Blueberry Pancakes",
-            desc: "Buttermilk blueberry pancakes, topped with ice cream and maple syrup",
-            price: "12",
-        },
-        {
-            name: "Cinnamon French Toast",
-            desc: "Brioche served with blueberry compote and sweetened yoghurt",
-            price: "15",
         },
         {
             name: "Benny Roll",
@@ -54,55 +39,21 @@ const precovid_menu = {
             price: "12",
         },
         {
-            name: "Haloumi Roll",
+            name: "Haloumi & Mushroom Roll",
             desc: "Grilled haloumi, mushrooms, leafy greens and tomato relish on a milk bun",
             price: "13",
         },
         {
-            name: "Steak Sandwich",
-            desc: "Steak, bacon, cheese, caramelised onion, beetroot, leafy greens and BBQ sauce",
-            price: "16",
-        },
-        {
-            name: "Vegan Falafel Roll",
-            desc: "Beetroot falafel, hash brown avocado and romesco on a vegan roll",
-            price: "10",
-        },
-        {
-            name: "Smashed Avocado",
-            desc: "Toasted sourdough and avo smash finished with feta, cherry tomatoes, relish, cracked pepper, lemon wedge",
+            name: "Smashed Avocado & Fetta",
+            desc: "On sourdough bread",
             price: "13",
         },
         {
             name: "Grilled toasties",
-            desc: "",
-            price: "",
-            items: [
-                {
-                    name: "Ham, cheese, tomato on sourdough",
-                    price: "8"
-                },
-                {
-                    name: "Caramelised onion, goat's cheese, balsamic mushrooms, spinach and tomato",
-                    price: "10"
-                }
-            ]
+            desc: "Ham, cheese, tomato on sourdough",
+            price: "8",
         },
-        {
-            name: "Wraps",
-            desc: "Served with salad garnish",
-            price: "",
-            items: [
-                {
-                    name: "Chicken, cheese, tomato, leafy greens and aioli",
-                    price: "12"
-                },
-                {
-                    name: "Mushroom, feta, capsicum, spinach, romesco",
-                    price: "12"
-                }
-            ]
-        },
+
         {
             name: "Toast",
             desc: "Your choice of white sourdough or quinoa and linseed, served with condiments",
@@ -117,46 +68,51 @@ const precovid_menu = {
 
     burgers: [
          {
-            name: "Classic",
-            desc: "Beef patty, relish, caramelised onion, salad and tomato",
+            name: "The US Bee",
+            desc: "Double beef, American cheese, pickles, bacon & special sauce",
             price: "18",
         },
         {
-            name: "The Bulli",
-            desc: "Beef patty, cheese, bacon, fried egg, hash brown, beetroot, tomato, leafy greens, onion, tomato sauce",
+            name: "Picante Chook",
+            desc: "Grilled chicken breast fillet, shredded cheese, our house made Peri-Peri sauce with leafy greens & tomato",
             price: "18",
         },
         {
-            name: "Grilled Chicken",
-            desc: "Grilled chicken, cheese, tomato, leafy greens, aioli",
+            name: "Old School Hamburger",
+            desc: "Smashed beef pattie, cheese, pineapple, beetroot, bacon & smokey bbq sauce",
             price: "18",
         },
         {
-            name: "Peri Peri Chicken",
-            desc: "Peri peri chicken, cheese, tomato, capsicum, leafy greens, peri peri mayo",
+            name: "Schnitty & Truffle",
+            desc: "Schnitzel & shredded cheese with leafy greens, tomato & truffle mayo",
             price: "18",
         },
         {
-            name: "Field Burger",
-            desc: "Beetroot falafel patty, capsicum, harissa hummus, beetroot, tomato, spinach, Vegan parmesan on a vegan bun",
+            name: "Garden of Vegan",
+            desc: "Chickpea & zucchini pattie with avocado, sliced tomato, mixed greens & vegan chipotle mayo on a vegan glazed bun",
             price: "18",
         },
     ],
     seafood: [
         {
             name: "Grilled Barramundi",
-            desc: "Cooked on the grill in lemon pepper butter, served with salad, chips, tartare sauce, lemon",
+            desc: "Classic barramundi fillet cooked with lemon pepper",
             price: "22",
         },
         {
             name: "Fish and Chips",
-            desc: "Okains bay blue eyed cod fillets in light batter, chips, salad, tartare sauce, lemon",
-            price: "19",
+            desc: "Lightly battered Okains Bay blue eyed cod fillets. Served with chips & tartare sauce",
+            price: "18.50",
+        },
+        {
+            name: "Prawns",
+            desc: "Double-crunch spicy prawns. Served with chips and roast garlic aioli",
+            price: "17",
         },
         {
             name: "Calamari",
-            desc: "Panko calamari rings, chips and salad, aioli, lemon",
-            price: "17",
+            desc: "Australian Lakes Entrance squid rings. Served with chips and roast garlic aioli",
+            price: "16",
         },
         {
             name: "Seafood Basket",
@@ -222,7 +178,7 @@ const precovid_menu = {
             ]
         },
         {
-            name: "Espresso / Macchiato",
+            name: "Short Black / Macchiato",
             desc: "",
             price: "3.50",
         },

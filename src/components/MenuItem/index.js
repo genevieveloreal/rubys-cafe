@@ -11,12 +11,12 @@ const useStyles = makeStyles({
     itemName: {
         fontSize: "16px",
         fontWeight: "500",
-        flex: "1 0 90%",
+        flex: "1 0 85%",
     },
     itemPrice: {
         fontSize: "16px",
         fontWeight: "500",
-        flex: "0 0 10%",
+        flex: "0 0 15%",
         textAlign: "right"
     },
     itemDesc: {
