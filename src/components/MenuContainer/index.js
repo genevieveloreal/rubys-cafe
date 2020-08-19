@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import menu from "assets/precovid-menu.js";
+import menu from "assets/menu.js";
 import MenuItem from "components/MenuItem";
 import { Call } from "@material-ui/icons";
 import Button from "@material-ui/core/Button";
@@ -51,6 +51,14 @@ export default function MenuContainer() {
           )}
         </Grid>
         <Grid item sm={6} xs={12}>
+          <Typography variant="h4" className={classes.subheading}>Breakfast</Typography>
+          <Typography variant="body1">7am - 11:30am</Typography>
+
+          { menu.breakfast.map((item, key) =>
+            <MenuItem key={key} {...item} />
+          )}
+        </Grid>
+        <Grid item sm={6} xs={12}>
           <Typography variant="h4" className={classes.subheading}>Burgers</Typography>
           <Typography variant="body1">From 11am. All burgers served with chips</Typography>
           { menu.burgers.map((item, key) =>
@@ -72,12 +80,6 @@ export default function MenuContainer() {
 
         </Grid>
         <Grid item sm={6} xs={12}>
-          <Typography variant="h4" className={classes.subheading}>Hot Drinks</Typography>
-          { menu.hotdrinks.map((item, key) =>
-            <MenuItem key={key} {...item} />
-          )}
-        </Grid>
-        <Grid item sm={6} xs={12}>
           <Typography variant="h4" className={classes.subheading}>Cold Drinks</Typography>
           { menu.coldrinks.map((item, key) =>
             <MenuItem key={key} {...item} />
@@ -85,7 +87,7 @@ export default function MenuContainer() {
         </Grid>
       </Grid>
       <div className={classes.buttonContainer}>
-        <Button href="/assets/rubysmenu_june2020.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
+        <Button href="/assets/RubysBulliMenu_Aug2020.pdf" color="primary" variant="contained" target="_blank">Download Menu</Button>
       </div>
     </div>
   )

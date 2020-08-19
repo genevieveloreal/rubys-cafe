@@ -65,7 +65,7 @@ export default function PhotoCard(props) {
         <Typography variant="body1">Everything at Ruby's Cafe is takeaway. Call us now to order ahead.</Typography>
         <CardActions disableSpacing={true} className={classes.cardActions}>
           <Button className={classes.button} color="secondary" href="tel:+61242846890"  variant="contained"><Call className={classes.icon}/> 4284 6890</Button>
-          <Button className={classes.button} color="secondary" href="/assets/rubysmenu_june2020.pdf" variant="contained">Download Menu</Button>
+          <Button className={classes.button} color="secondary" href="/assets/RubysBulliMenu_Aug2020.pdf" variant="contained">Download Menu</Button>
 
         </CardActions>
       </div>

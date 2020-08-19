@@ -3,27 +3,17 @@ const menu = {
         {
             name: "Bacon & Egg Roll",
             desc: "Bacon, fried egg on a milk bun. Your choice of tomato or BBQ sauce",
-            price: "7",
-        },
-        {
-            name: "Chorizo Roll",
-            desc: "Chorizo, fried egg, leafy greens, aioli on a milk bun",
-            price: "10",
+            price: "9",
         },
         {
             name: "Haloumi Roll",
             desc: "Grilled haloumi, mushrooms, leafy greens and tomato relish on a milk bun",
-            price: "10",
-        },
-        {
-            name: "Benny Roll",
-            desc: "Fried egg, bacon, spinach, hollandaise on a milk bun",
-            price: "10",
+            price: "13",
         },
        {
            name: "Smashed Avocado",
-           desc: "Toasted sourdough and avo smash finished with feta, cherry tomatoes, relish, cracked pepper, lemon wedge",
-           price: "11",
+           desc: "Toasted sourdough and avo smash finished with feta",
+           price: "13",
        },
        {
             name: "Grilled toasties",
@@ -31,79 +21,123 @@ const menu = {
             price: "",
             items: [
                 {
-                    name: "Ham, cheese, tomato on sourdough",
-                    price: "6"
+                    name: "Ham, cheese, tomato on white thick cut bread",
+                    price: "8"
                 },
                 {
                     name: "Caramelised onion, goat's cheese, balsamic mushrooms, spinach and tomato",
-                    price: "7"
-                }
-            ]
-        },
-        {
-            name: "Wraps",
-            desc: "",
-            price: "",
-            items: [
-                {
-                    name: "Chicken, cheese, tomato, leafy greens and aioli",
-                    price: "10"
-                },
-                {
-                    name: "Mushroom, feta, capsicum, spinach, tomato relish",
                     price: "10"
                 }
             ]
         },
+       {
+           name: "Toast",
+           desc: "Your choice of white sourdough or quinoa and linseed, served with condiments",
+           price: "5",
+       },
         {
             name: "Banana Bread or Raisin Toast",
             desc: "",
             price: "5",
+        }
+
+    ],
+   breakfast: [
+        {
+            name: "Eggs Your Way",
+            desc: "Sourdough toast with a choice of fried, scrambled or poached eggs",
+            price: "11",
         },
+        {
+            name: "Eggs Benedict",
+            desc: "Ham, wilted spinach, poached eggs, hollandaise sauce on a toasted english muffin",
+            price: "15",
+        },
+        {
+            name: "Haloumi Stack",
+            desc: "Toasted sourdough, haloumi, poached egg, romesco with a salad of roast capsicum, spinach and artichoke, finished with basil leaves and salsa verde",
+            price: "20",
+        },
+        {
+            name: "Benny Roll",
+            desc: "Poached eggs, bacon, spinach and hollandaise on a milk bun",
+            price: "11",
+        },
+        {
+            name: "French Toast",
+            desc: "Served with mixed berry compote and maple syrup",
+            price: "11",
+        },
+       {
+            name: "Big Breakfast",
+            desc: "Eggs your way with grilled tomato, pork chipolata, bacon and hash brown",
+            price: "22",
+        },
+
     ],
 
     burgers: [
          {
-            name: "Classic",
-            desc: "Beef patty, relish, caramelised onion, salad and tomato",
-            price: "15",
-        },
-        {
-            name: "The Double Patty (USB)",
-            desc: "Double beef, American cheese, pickles, bacon & special sauce\n",
-            price: "15",
-        },
-        {
-            name: "Peri Chicken (Picante)",
-            desc: "Grilled chicken, shredded cheese, tomato, salad leaves, house made Peri sauce",
-            price: "15",
-        },
-        {
             name: "Old School Burger",
-            desc: "Smashed beef patty, cheese, pineapple, beetroot, bacon, smokey bbq sauce",
-            price: "15",
+            desc: "Smashed beef patty, cheese, pineapple, beetroot, leafy greens and BBQ sauce",
+            price: "18",
         },
         {
-            name: "Schnitty & Truffle",
-            desc: "Chicken Schnitzel, shredded cheese, tomato, leafy greens & truffle mayo",
-            price: "15",
+            name: "The Double Patty",
+            desc: "Double beef patty, cheese, bacon, tomato, lettuce and jalapeno mayo",
+            price: "18",
         },
         {
-            name: "Garden of Vegan",
-            desc: "Chickpea & zucchini patty, avocado, tomato, mixed greens, vegan chipotle on a vegan bun",
-            price: "15",
+            name: "Vegan Burger",
+            desc: "Chickpea & Zucchini patty, avocado, tomato, mixed greens, vegan chipotle on a vegan bun",
+            price: "18",
+        },
+        {
+            name: "Hawaiian Chicken Burger",
+            desc: "Marinated chicken breast, ham, pineapple, cheese, leafy greens, sweet chili mayo",
+            price: "18",
+        },
+        {
+            name: "Pork Katsu Burger",
+            desc: "Crumbed pork, cabbage slaw, kewpie mayo, tonkatsu sauce",
+            price: "18",
+        },
+        {
+            name: "Steak Sandwich",
+            desc: "Steak, greens, tomato, caramelised onion, tomato relish, cheese on a Turkish roll",
+            price: "18",
+        },
+        {
+          name: "Wraps",
+          desc: "Served with salad garnish",
+          price: "",
+          items: [
+            {
+              name: "Chicken, cheese, tomato, leafy greens and aioli",
+              price: "12"
+            },
+            {
+              name: "Battered fish, tomato, lettuce and tartare",
+              price: "12"
+            }
+          ]
         },
     ],
     seafood: [
         {
             name: "Fish and Chips",
             desc: "Okains bay blue eyed cod fillets in light batter, chips, salad, tartare sauce, lemon",
-            price: "15",
+            price: "19",
         },
+      {
+        name: "Grilled Barramundi",
+        desc: "Cooked on the grill in lemon pepper butter, served with salad, chips, tartare sauce, lemon",
+        price: "22",
+      },
         {
             name: "Calamari",
             desc: "Panko calamari rings, chips and salad, aioli, lemon",
-            price: "15",
+            price: "17",
         },
         {
             name: "Seafood Basket",
@@ -112,9 +146,14 @@ const menu = {
         },
         {
             name: "Chicken Schnitzel",
-            desc: "Panko crumbed, served with chips, and  gravy",
-            price: "14",
+            desc: "Chicken schnitzel served with chips, salad and gravy",
+            price: "16",
         },
+      {
+        name: "Chicken Parma",
+        desc: "Chicken Parma served with chips and salad",
+        price: "17.50",
+      },
     ],
     toshare: [
         {
